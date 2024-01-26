@@ -307,8 +307,8 @@ header .social .google_plus {
 }
 
 .main > .container > .contents > article {
-    opacity: 0;
-    display: none;
+    /* opacity: 0;
+    display: none; */
 }
 .main > .container > .contents > article > .inner {
     width: 980px;
@@ -323,4 +323,31 @@ header .social .google_plus {
     transform: perspective(1000px);
 }
 
-
+article.home .bg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+article.home .bg .shoji {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+article.home .bg .shoji .left {
+    position: absolute;
+    left: -178px;
+    top: -178px;
+    width: 178px;
+    height: 356px;
+    background: url(./images/p1_shoji_left.png) no-repeat left top;
+    background-size: 178px 356px;
+}
+article.home .bg .shoji .right {
+    position: absolute;
+    left: 0px;
+    top: -178px;
+    width: 178px;
+    height: 356px;
+    background: url(./images/p1_shoji_right.png) no-repeat left top;
+    background-size: 178px 356px;
+}
