@@ -36,7 +36,7 @@ header h1 a{
     white-space: nowrap;
     /* overflow: hidden; */
     display: block;
-    /* background: no repeat; */
+    /* background: no-repeat; */
     /* background-size: 133px 20px; */
     width: 133px;
     height: 20px;
@@ -44,7 +44,7 @@ header h1 a{
     top: 7px;
     left: 10px;
     color:#11999E;
-    font-family: 'Sacramento', sans-serif;
+    font-family: 'Sacramento', 'Montserrat', cursive, sans-serif;
 }
 
 header .social {
@@ -67,36 +67,142 @@ header .social .google_plus {
     width: 62px;
 }
 
+.main {
+    width: 100%;
+    height: 100%;
+}
+.main > .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+.main > .bg > .bgs {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.main > .bg > .bgs > .red {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #9d2226;
+    background: linear-gradient(#b6482a, #9d2226);
+    opacity: 0;
+    display: none;
+}
+.main > .bg > .bgs > .blue {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #1d2087;
+    background: linear-gradient(#1d2087, #685a87);
+    opacity: 0;
+    display: none;
+}
+.main > .bg > .bgs > .gold {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #be9e6d;
+    opacity: 0;
+    display: none;
+}
+.main > .bg > .bgs > .done {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #464d58;
+    background: linear-gradient(#464d58, #b36082);
+    opacity: 0;
+    display: none;
+}
 
-
-a {
-    color:#11999E;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
-    text-decoration: none;
+.main > .bg > .jacket {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
 }
-a:hover{
-    color:#EAF6F6;
+.main > .bg > .jacket > .inner {
+    width: 464px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -232px;
+    margin-top: -200px;
+    transform: perspective(1000px);
+    transform-style: preserve-3d;
 }
-
-h1{
-    color: #66BFBF;
-    font-size: 5.625rem;
-    line-height: 2;
-    margin-top: 50px auto 0 auto;
-    font-family: 'Sacramento', cursive;
+.main > .bg > .jacket .o1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 464px;
+    height: 400px;
+    background: orange;
 }
-h2{
-    color: #66BFBF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    font-weight: normal;
-    padding-bottom: 10px;
+.main > .bg > .jacket .u1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 464px;
+    height: 400px;
+    background: royalblue;
 }
-h3{
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
+.main > .bg > .jacket .r1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 22px;
+    height: 400px;
+    background: red;
 }
-p {
-    line-height: 2;
+.main > .bg > .jacket .l1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 22px;
+    height: 400px;
+    background: lavender;
+}
+.main > .bg > .jacket .t1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 464px;
+    height: 22px;
+    background: #000000;
+  }
+.main > .bg > .jacket .b1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 464px;
+    height: 22px;
+    background: #000000;
+}
+.main > .bg > .jacket .blue1 {
+    width: 464px;
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #1d2087;
+    background: linear-gradient(#1d2087, #685a87);
 }
